@@ -43,4 +43,4 @@ fi
 source "$VENV_PATH/bin/activate"
 
 echo "Running integration tests..."
-pytest "$PROJECT_ROOT/tests/" "$@"
+pytest -v "$PROJECT_ROOT/tests/" "$@"
