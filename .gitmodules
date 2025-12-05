@@ -1,0 +1,3 @@
+[submodule "gameserver/data"]
+	path = gameserver/data
+	url = https://github.com/openchamp/data.git
